@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 //This is the Observable abstract class.
 //Sometimes Observable is implemented as an interface
-//For more information about Observable design pattern please refer to the web link I have given in the link
+//For more information about Observable design pattern please refer to the web link I have given in the reference
 
 abstract class Observable{
 

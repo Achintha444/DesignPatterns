@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ContextCommand",
+            "request": "launch",
+            "mainClass": "ContextCommand"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ContextObserver",
             "request": "launch",
             "mainClass": "ContextObserver"
