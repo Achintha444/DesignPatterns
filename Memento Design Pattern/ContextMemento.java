@@ -1,15 +1,15 @@
 import java.util.ArrayList;
 
 // This is the abstract super class, which is extends by the State sub classes, sometimes we can use interfaces as well for this.
-// This class has the abstract goNext(), ehich over rides by the sub classes accordingly.
-// More info , refer the website given in the readme.
+// This class has the execute()
+// More info about the Memento design pattern, refer the website given in the readme.
 abstract class State{
 
     public abstract void execute();
 
 }
 
-/* In here we have simulated a fan with two states named Hign and Low, the given two classes are them.*/
+/* In here we have simulated a fan with two states named Hign,Medium and Low, the given three classes are them.*/
 class Low extends State{
 
     public void execute(){
