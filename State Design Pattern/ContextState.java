@@ -51,10 +51,11 @@ class Fan{
 }
 
 //This is just a temporary class which I have used to simualte the process
-public class Context{
+public class ContextState{
     public static void main(String args[]){
 
         Fan fan = new Fan(new Low());
+        fan.goNext();
         fan.goNext();
         fan.goNext();
 

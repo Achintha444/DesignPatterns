@@ -2,6 +2,24 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ContextStrategy",
+            "request": "launch",
+            "mainClass": "ContextStrategy"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ContextState",
+            "request": "launch",
+            "mainClass": "ContextState"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Fan",
+            "request": "launch",
+            "mainClass": "Fan"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Context",
             "request": "launch",
             "mainClass": "Context"
