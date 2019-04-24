@@ -6,3 +6,5 @@
 
 * https://www.tutorialspoint.com/design_pattern/state_pattern.htm [for state design pattern]
 * https://www.tutorialspoint.com/design_pattern/strategy_pattern.htm [for strategy design pattern]
+* https://www.tutorialspoint.com/design_pattern/template_pattern.htm [for template design pattern]
+* https://www.tutorialspoint.com/design_pattern/chain_of_responsibility_pattern.htm [for chain of responsibility design pattern]
