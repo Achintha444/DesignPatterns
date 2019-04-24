@@ -1,13 +1,17 @@
+//This is the Visitor interface 
+//For more information about the Visitor design pattern please refer to the web link I have given in the references
 interface Visitor{
     public abstract void visit(Item1 item1);
     public abstract void visit(Item2 item2);
     public abstract void visit(Item3 item3);
 }
 
+//This is the visitable interface
 interface Visitable{
     public abstract void accept(Visitor visitor);
 }
 
+//the next three classes are the sub classes which extends the Vistable interface
 class Item1 implements Visitable{
     private int itemPrice;
 
@@ -56,6 +60,7 @@ class Item3 implements Visitable{
     }
 }
 
+//This is the concrete visitor who implemnts the vistor interface
 class ConcreteVisitor implements Visitor{
     public void visit(Item1 item1){
         System.out.println("The item price of item1 is "+item1.getItemPrice());
@@ -71,6 +76,7 @@ class ConcreteVisitor implements Visitor{
 
 }
 
+//This is just a simple class writtern to simulate the process
 public class ContextVisitor{
     public static void main(String[] args) {
         ConcreteVisitor visitor = new ConcreteVisitor();
