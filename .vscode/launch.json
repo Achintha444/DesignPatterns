@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ContextMemento",
+            "request": "launch",
+            "mainClass": "ContextMemento"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ContextMediator",
             "request": "launch",
             "mainClass": "ContextMediator"

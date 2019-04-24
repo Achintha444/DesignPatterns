@@ -1,6 +1,4 @@
 import java.util.ArrayList;
-
-
 //This is the abstract Colleuge super class
 // To get a more clear idea about this code please refer to the web link in the read me.
 
