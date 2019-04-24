@@ -5,3 +5,4 @@
 * I strongly recommend if you don't have a clear idea about design patterns, before dive into the codes first to read and get the idea from these tutorials.
 
 * https://www.tutorialspoint.com/design_pattern/state_pattern.htm [for state design pattern]
+* https://www.tutorialspoint.com/design_pattern/strategy_pattern.htm [for strategy design pattern]
