@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ContextMediator",
+            "request": "launch",
+            "mainClass": "ContextMediator"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ContextChainOfResponsibility",
             "request": "launch",
             "mainClass": "ContextChainOfResponsibility"
