@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ContextFactory",
+            "request": "launch",
+            "mainClass": "ContextFactory",
+            "projectName": "DesignPatterns_6023ee99"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ContextPrototype",
             "request": "launch",
             "mainClass": "ContextPrototype",
