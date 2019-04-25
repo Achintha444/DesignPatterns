@@ -1,11 +1,13 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
+//To get a clar idea please refer to the weblink I have given in the readme
 class DBConn{
     private String userName;
     private String pass;
     private String db;
 
+    //protected constructor
     protected DBConn(String userName, String pass, String db) {
         this.userName = userName;
         this.pass = pass;
@@ -37,8 +39,9 @@ class DBConn{
     }
 }
 
+//this is the class which gives the DBConn which has the DBConn object pool
 class DBConnObjectPool{
-    private Queue<DBConn>locked;
+    private Queue<DBConn>locked; 
     private Queue<DBConn>unlocked;
     private int maxAmountofObjects;
 
@@ -75,10 +78,12 @@ class DBConnObjectPool{
     }
 
     public synchronized void checkIn(DBConn conn){
+        //this is a wrong way, the right way is we must remove the 'conn' in the locked linked list
         this.unlocked.add(this.locked.remove());
     }
 }
 
+//This is a simple class for to simulate the process
 public class ContextObjectPool{
     public static void main(String[] args) {
         DBConnObjectPool objectPool = new DBConnObjectPool(5);
@@ -86,6 +91,7 @@ public class ContextObjectPool{
         DBConn conn1 = objectPool.checkOut();
         DBConn conn2 = objectPool.checkOut();
 
+        //both output is same
         System.out.println(conn1.getUserName());
         System.out.println(conn2.getUserName());
         
