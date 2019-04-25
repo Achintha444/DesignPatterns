@@ -14,3 +14,9 @@
 * https://www.tutorialspoint.com/design_pattern/memento_pattern.htm [for memento design pattern]
 * https://www.tutorialspoint.com/design_pattern/command_pattern.htm [for command design pattern]
 * https://www.tutorialspoint.com/design_pattern/observer_pattern.htm [for observer design pattern]
+
+### Creational Design Pattern
+
+* https://www.geeksforgeeks.org/object-pool-design-pattern [for object pool design pattern]
+* https://www.tutorialspoint.com/design_pattern/singleton_pattern.htm [for singleton design pattern]
+* http://www.blackwasp.co.uk/Multiton.aspx [for multiton design pattern]
