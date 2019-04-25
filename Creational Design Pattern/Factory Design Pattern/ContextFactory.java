@@ -5,7 +5,7 @@ interface Shape{
 class Square implements Shape{
     private String type;
 
-    public Square() {
+    protected Square() {
         this.type = "Square";
     }
 
@@ -18,7 +18,7 @@ class Square implements Shape{
 class Rectangle implements Shape{
     private String type;
 
-    public Rectangle() {
+    protected Rectangle() {
         this.type = "Rectangle";
     }
 
@@ -31,7 +31,7 @@ class Rectangle implements Shape{
 class Circle implements Shape{
     private String type;
 
-    public Circle() {
+    protected Circle() {
         this.type = "Circle";
     }
 
