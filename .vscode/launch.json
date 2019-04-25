@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ContextMultiton",
+            "request": "launch",
+            "mainClass": "ContextMultiton",
+            "projectName": "DesignPatterns_6023ee99"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ContextVisitor",
             "request": "launch",
             "mainClass": "ContextVisitor"
