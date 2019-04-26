@@ -25,7 +25,7 @@ class VegiFood{
     }
 
     protected void setVBurger(VegiBurger vBurger) {
-        this.vBurger = VegiBurger();
+        this.vBurger = new VegiBurger();
     }
 
 }
@@ -34,14 +34,14 @@ class ChickenFood{
     private Cola cola;
     private ChickenBurger cBurger;
 
-    protected VegiFood(){}
+    protected ChickenFood(){}
 
     protected void setCola(Cola cola) {
         this.cola = new Cola();
     }
 
     protected void setCBurger(ChickenBurger cBurger) {
-        this.cBurger = ChickenBurger();
+        this.cBurger = new ChickenBurger();
     }
 
 }
@@ -50,7 +50,7 @@ class Builder{
     
     protected VegiFood createVegiFood(){
         VegiFood vegiFood = new VegiFood();
-        vegiFood.setvBurger(new VegiBurger());
+        vegiFood.setVBurger(new VegiBurger());
         vegiFood.setPepsi(new Pepsi());
         return vegiFood;
     }
@@ -71,7 +71,7 @@ class Director{
     public VegiFood getVegiFood(){
         return this.builder.createVegiFood();
     }
-    public ChcickenFood getChickenFood(){
+    public ChickenFood getChickenFood(){
         return this.builder.createChickenFood();
     }
 }
