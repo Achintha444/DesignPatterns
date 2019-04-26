@@ -79,7 +79,6 @@ class CircleFactory extends Factory{
 
 //This is a class just to simulate the process
 public class ContextFactoryMethod{
-    
     public static void main(String args[]){
         SquareFactory sFactory = new SquareFactory();
         RectangleFactory rFactory = new RectangleFactory();
