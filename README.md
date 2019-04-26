@@ -20,3 +20,15 @@
 * https://www.geeksforgeeks.org/object-pool-design-pattern [for object pool design pattern]
 * https://www.tutorialspoint.com/design_pattern/singleton_pattern.htm [for singleton design pattern]
 * http://www.blackwasp.co.uk/Multiton.aspx [for multiton design pattern]
+* https://www.tutorialspoint.com/design_pattern/prototype_pattern.htm [for prototype design pattern]
+* https://www.tutorialspoint.com/design_pattern/factory_pattern.htm [for factory design pattern]
+* https://www.geeksforgeeks.org/design-patterns-set-2-factory-method/ [for factory method design pattern]
+* https://www.tutorialspoint.com/design_pattern/abstract_factory_pattern.htm [for abstract factory design pattern]
+* https://www.tutorialspoint.com/design_pattern/builder_pattern.htm [for builder design pattern]
+
+### Structural Design Pattern
+
+
+
+### Video Tutorials that might help you
+* https://www.youtube.com/playlist?list=PLF206E906175C7E07
