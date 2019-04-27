@@ -30,6 +30,9 @@
 
 ### Structural Design Pattern
 
+* https://www.tutorialspoint.com/design_pattern/adapter_pattern.htm [for adpater design pattern]
+* https://www.tutorialspoint.com/design_pattern/flyweight_pattern.htm [for flyweight design pattern]
+
 
 
 ### Video Tutorials that might help you
