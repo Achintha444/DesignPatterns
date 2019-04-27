@@ -1,6 +1,8 @@
 # DesignPatterns
 * This repo consists simple simulations of Design patterns such as (ex: State, Strategy)
 * The language I have used is Java 8.
+* Please be kind enough to let me know if I have made a mistake in the codes.
+*Happy Coding!
 ## References
 * I strongly recommend if you don't have a clear idea about design patterns, before dive into the codes first to read and get the idea from these tutorials.
 ### Behavioral Design Patterns
